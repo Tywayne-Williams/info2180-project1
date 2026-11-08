@@ -69,3 +69,59 @@ nav a:hover {
 .overview-hero-text {
     flex: 1;
 }
+
+/* Learn About Section */
+.learn-about {
+    padding: 50px 0;
+}
+
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+    margin-bottom: 30px;
+}
+
+/* Three-column card layout */
+.learn-about .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+}
+
+/* Individual cards */
+.learn-about .card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Card images */
+.learn-about .card img {
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+    display: block;
+    flex-shrink: 0;
+}
+
+/* Card text area */
+.learn-about .card .card-body {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* Card headings */
+.learn-about .card .card-body h3 {
+    font-size: 21px;
+    color: #48BB78;
+    margin-top: 0;
+}
+
+/* Card paragraphs */
+.learn-about .card .card-body p {
+    line-height: 1.6;
+}
