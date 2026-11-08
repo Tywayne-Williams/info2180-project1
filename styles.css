@@ -204,3 +204,55 @@ nav a:hover {
 .stories article a:hover {
     text-decoration: underline;
 }
+
+/* Newsletter Section*/
+
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.newsletter h3 {
+    margin-top: 0;
+}
+
+.newsletter p {
+    line-height: 1.6;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter input {
+    box-sizing: border-box;
+    padding: 12px;
+    width: 300px;
+    height: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newsletter .btn {
+    box-sizing: border-box;
+    background-color: #5A67D8;
+    color: white;
+    padding: 12px 25px;
+    height: 45px;
+    min-width: 120px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.newsletter .message {
+    margin-top: 20px;
+}
