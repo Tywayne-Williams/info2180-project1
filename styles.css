@@ -125,3 +125,40 @@ nav a:hover {
 .learn-about .card .card-body p {
     line-height: 1.6;
 }
+
+/* COVID-19 Testing Section */
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 50px 0;
+}
+
+.testing  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.testing-descriptin {
+    flex: 1;
+}
+
+.testing  h2 {
+    margin-top: 0;
+}
+
+.testing p {
+    line-height: 1.6;
+}
+
+.testing .btn {
+    display: inline-block;
+    background-color: #48BB78;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
