@@ -162,3 +162,45 @@ nav a:hover {
     padding: 12px 25px;
     border-radius: 5px;
 }
+
+/* Recent Stories Section */
+
+.stories {
+    padding: 50px 0;
+}
+
+.stories h2 {
+    color: #5A67D8;
+    margin-bottom: 30px;
+}
+
+.stories article {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.stories article img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.stories article h3 {
+    font-size: 18px;
+}
+
+.stories article p {
+    line-height: 1.6;
+}
+
+.stories article a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.stories article a:hover {
+    text-decoration: underline;
+}
