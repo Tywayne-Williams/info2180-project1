@@ -256,3 +256,16 @@ nav a:hover {
 .newsletter .message {
     margin-top: 20px;
 }
+
+/* Newsletter Responsive Styling */
+
+@media (max-width: 600px){
+    .newsletter form {
+        flex-direction: column;
+    }
+
+    .newsletter input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+} 
